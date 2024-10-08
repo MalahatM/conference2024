@@ -1,0 +1,79 @@
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	background-color: rgb(87, 87, 166);
+}
+.logo img{
+
+	height: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	
+	
+}
+.navbar ul{ 
+	display: flex;
+	list-style-type: none;
+}
+.navbar a{
+	padding: 8px;
+	color: rgb(13, 11, 11);
+	text-decoration: none;
+}
+.logo-name{
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(13, 11, 11);
+}
+	.first-day{ 
+	height:100% ;
+	width: 320px;
+	border: solid 5px;
+	color: black;
+	padding-left: 5px;
+}
+.first-day img{
+	width: 300px;
+	height: 150px;
+	padding-left: 5px;
+}
+.second-day{ 
+	height:100% ;
+	width: 320px;
+	border: solid 5px;
+	color: black;
+	padding-left: 5px;
+}
+.second-day img{
+	width: 300px;
+	height: 150px;
+	padding-left: 5px;
+}
+.third-day{ 
+	height:100% ;
+	width: 320px;
+	border: solid 5px;
+	color: black;
+	padding-left: 5px;
+}
+.third-day img{
+	width: 300px;
+	height: 150px;
+	padding-left: 5px;
+}
+.column{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+ .food{
+	font-size: 30px;
+	color: rgba(178, 42, 42, 0.682);
+}
