@@ -1,0 +1,33 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	background-color: rgb(87, 87, 166);
+}
+.logo img{
+
+	height: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	
+	
+}
+.navbar ul{ 
+	display: flex;
+	list-style-type: none;
+}
+.navbar a{
+	padding: 8px;
+	color: rgb(13, 11, 11);
+	text-decoration: none;
+}
+.logo-name{
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(13, 11, 11);
+}
