@@ -77,3 +77,28 @@
 	font-size: 30px;
 	color: rgba(178, 42, 42, 0.682);
 }
+footer{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: cornflowerblue;
+	
+}
+footer .img-1 img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+footer .img-2 img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+
+}
+footer h1{
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
