@@ -8,7 +8,7 @@
 }
 .logo img{
 
-	height: 40px;
+	height: 40;
 	height: 40px;
 	border-radius: 50%;
 }
@@ -22,6 +22,7 @@
 	display: flex;
 	list-style-type: none;
 }
+
 .navbar a{
 	padding: 8px;
 	color: rgb(13, 11, 11);
@@ -32,12 +33,15 @@
 	font-weight: bold;
 	color: rgb(13, 11, 11);
 }
-	.first-day{ 
+
+
+.first-day{ 
 	height:100% ;
 	width: 320px;
-	border: solid 5px;
-	color: black;
 	padding-left: 5px;
+	border: solid 5px;
+	border-radius: 8px;
+	color:rgb(80, 80, 160)
 }
 .first-day img{
 	width: 300px;
@@ -47,9 +51,10 @@
 .second-day{ 
 	height:100% ;
 	width: 320px;
-	border: solid 5px;
-	color: black;
 	padding-left: 5px;
+	border: solid 5px;
+	border-radius: 8px;
+	color:rgb(80, 80, 160)
 }
 .second-day img{
 	width: 300px;
@@ -57,11 +62,12 @@
 	padding-left: 5px;
 }
 .third-day{ 
-	height:100% ;
+	height:100%;
 	width: 320px;
-	border: solid 5px;
-	color: black;
 	padding-left: 5px;
+	border: solid 5px;
+	border-radius: 8px;
+	color:rgb(80, 80, 160)
 }
 .third-day img{
 	width: 300px;
@@ -72,6 +78,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-top: 10px;
 }
  .food{
 	font-size: 30px;
