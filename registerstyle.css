@@ -108,6 +108,22 @@ section{
 	justify-content: flex-end;
 	
 }
+.loging-button{
+padding: 0.5em 1.5 em;
+width: 58px;
+height: 40px;
+margin-left: 100px;
+margin-bottom: 15px;
+border-radius: 5px;
+border: 1px solid rgb(128, 128, 148);
+box-shadow: 0.5em 0.5em rgb(132, 109, 109);
+&:hover{
+	cursor: pointer;
+}
+}
+.link{ 
+	margin-left: 40px;
+}
 .date{
 	display: flex;
 	justify-content: end;
