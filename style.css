@@ -36,6 +36,10 @@
 	color: rgb(13, 11, 11);
 	
 }
+.text1{
+	font-family: Arial,  sans-serif;
+	margin-top: 20px;
+}
 main{
 	display: flex;
 	justify-content: end;
@@ -80,14 +84,16 @@ button{
 	border: 3px solid rgb(142, 142, 155);
 	border-radius: 15px;
 	box-shadow: 5px 3px rgb(89, 89, 135);
-}
-.text a{ text-decoration: none;
-color: whitesmoke;
+	
 
-}
-button:hover{
+&:hover{
 	background-color: rgb(17, 87, 87);	
 }
+}
+.text a{ text-decoration: none;
+	color: whitesmoke;
+	
+	}
 
 footer{
 	display: grid;

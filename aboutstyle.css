@@ -31,3 +31,141 @@
 	font-weight: bold;
 	color: rgb(13, 11, 11);
 }
+
+
+main.speakers{
+	margin: 10px 5px 10px 5px;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.firstperson {
+	display: flex;
+	flex-direction: row;
+	
+}
+.firstperson .text1{
+	width: 400px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: rgb(200, 200, 214);
+	border: 2px solid rgb(75, 75, 119);
+	margin-right: 500px;
+	margin-left: 100px;
+	margin-top: 150px;
+	box-shadow: 10px 5px gray;
+	
+	
+}
+.text1{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image1 img{
+	width: 400px;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px  rgb(137, 147, 167);
+	
+}
+.secondperson {
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+.secondperson .text2{
+	width: 400px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: rgb(200, 200, 214);
+	border: 2px solid rgb(75, 75, 119);
+	margin-right: 500px;
+	margin-left: 100px;
+	margin-top: 150px;
+	box-shadow: 10px 5px gray;
+	
+	
+}
+.text2{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image2 img{
+	width: 400px;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px  rgb(137, 147, 167);
+	
+}
+.thirdperson{
+	display: flex;
+	flex-direction: row;
+	
+}
+.thirdperson .text3{
+	width: 400px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: rgb(200, 200, 214);
+	border: 2px solid rgb(75, 75, 119);
+	margin-right: 500px;
+	margin-left: 100px;
+	margin-top: 150px;
+	box-shadow: 10px 5px gray;
+	
+	
+}
+.text3{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image3 img{
+	width: 400px;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px  rgb(137, 147, 167);
+	
+}
+.fourthperson {
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+.fourthperson .text4{
+	width: 400px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: rgb(200, 200, 214);
+	border: 2px solid rgb(75, 75, 119);
+	margin-right: 500px;
+	margin-left: 100px;
+	margin-top: 150px;
+	box-shadow: 10px 5px gray;
+	
+	
+}
+.text4{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image4 img{
+	width: 400px;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px  rgb(137, 147, 167);
+	
+}
+
