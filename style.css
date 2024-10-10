@@ -79,6 +79,7 @@ button{
 	background-color: rgb(87, 87, 166);
 	border: 3px solid rgb(142, 142, 155);
 	border-radius: 15px;
+	box-shadow: 5px 3px rgb(89, 89, 135);
 }
 .text a{ text-decoration: none;
 color: whitesmoke;
