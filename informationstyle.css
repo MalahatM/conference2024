@@ -84,6 +84,20 @@
 	font-size: 30px;
 	color: rgba(178, 42, 42, 0.682);
 }
+.loging-button{
+	padding: 0.5em 1.5 em;
+	width: 88px;
+	height: 40px;
+	margin-left: 110px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	color: rgb(118, 118, 202);
+	border: 1px solid rgb(124, 124, 197);
+	box-shadow: 0.5em 0.5em rgba(93, 112, 132, 0.521);
+	&:hover{
+		cursor: pointer;
+	}
+	}
 footer{
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
