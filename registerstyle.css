@@ -12,6 +12,11 @@
 	height: 40px;
 	border-radius: 50%;
 }
+.icon img{
+	width: 40px;
+	height: 40px;
+	display: none;
+}
 .navbar{
 	display: flex;
 	align-items: center;
