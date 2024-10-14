@@ -6,9 +6,13 @@
 	padding: 8px;
 	background-color: rgb(87, 87, 166);
 }
+.icon img{
+	width: 40px;
+	height:40px ;
+}
 .logo img{
 
-	height: 40;
+	height: 40px;
 	height: 40px;
 	border-radius: 50%;
 }
@@ -124,4 +128,12 @@ footer .img-2 img{
 footer h1{
 	font-size: 25px;
 	font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 900px) {
+	footer{display:grid;
+		grid-template-rows:repeat(3,1fr) ;
+		justify-content: center;
+		align-items: center;
+	}
+	
 }
