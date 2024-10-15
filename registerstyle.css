@@ -111,11 +111,14 @@ body{
 }
 .img1 img{
 	display: flex;
-	width: 1100px;
-	height: 600px;
-	margin-top: 50px;
+	width: 90%;
 	border-radius: 10px;
-	margin-left: 20px;
+}
+.img1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
 }
 .container2.login.text1{
 	font-size: 40px;
@@ -131,10 +134,8 @@ body{
 }
 .img2 img{
 	display: flex;
-	width: 1100px;
-	height: 600px;
 	margin: 20px;
-	border-radius: 10px;
+	width: 40%;
 	
 }
 
