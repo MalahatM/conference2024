@@ -54,18 +54,29 @@ body{
 
 .container-1{
 	position: relative;
+	
 }
 .img1 img{
 	display: flex;
 	width: 90%;
 	border-radius: 10px;
+	filter: blur(3px);
+
 }
+.img1 img:hover {
+	filter:blur(0)
+}
+
+
 .img1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
+
+	
 }
+
 .text-1{
 	position: absolute;
 	color: rgb(232, 232, 183);
