@@ -179,14 +179,33 @@ button:hover {
 }
 .text-2{
 	position: absolute;
-	color: rgb(183, 25, 114);
-	top: 80%;
-	left: 40%;
+	color: rgb(220, 20, 43);
+	top: 90%;
+	left: 33%;
 	transform: translate(-50%, -50%);
 	font-size: 80px;
 	font-weight: bold;
 	
 }
+.container-4{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.form-2 {
+    width: 400px; 
+    padding: 50px; 
+	border: 2px solid rgb(124, 124, 197);
+	box-shadow: 0.5em 0.5em rgba(93, 112, 132, 0.521);
+    border-radius: 8px;
+    margin-top: 20px;
+	margin-right: 20px;
+    background-color: #ecebf1; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	color: rgb(26, 26, 31);
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
 
 
 
