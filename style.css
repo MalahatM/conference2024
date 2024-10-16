@@ -131,7 +131,8 @@ main{
 	background-color: rgb(146, 146, 190);
 	border: 3px solid rgb(142, 142, 155);
 	border-radius: 15px;
-	box-shadow: 5px 3px rgb(89, 89, 135);margin: 20px;
+	box-shadow: 5px 3px rgb(89, 89, 135);
+	margin: 20px;
 	cursor: pointer;
     transition: all 2s ;
 

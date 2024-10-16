@@ -99,12 +99,11 @@ body{
 .form-1 {
     width: 400px; 
     padding: 20px; 
-	border: 1px solid rgb(124, 124, 197);
-	box-shadow: 0.5em 0.5em rgba(93, 112, 132, 0.521);
+	border: 3px solid rgb(124, 124, 197);
+	box-shadow: 8px 3px rgb(100, 100, 157);
     border-radius: 8px;
     margin-top: 20px;
     background-color: #f9f9f9; 
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	color: rgb(118, 118, 202);
 	margin-left: 10px;
 	margin-bottom: 10px;
@@ -116,6 +115,8 @@ body{
     margin: 10px 0;
     border-radius: 4px;
     border: 1px solid #ccc;
+	
+
 }
 
 button {
@@ -194,13 +195,12 @@ button:hover {
 .form-2 {
     width: 400px; 
     padding: 50px; 
-	border: 2px solid rgb(124, 124, 197);
-	box-shadow: 0.5em 0.5em rgba(93, 112, 132, 0.521);
+	border: 3px solid rgb(124, 124, 197);
+	box-shadow: 8px 3px rgb(100, 100, 157);
     border-radius: 8px;
     margin-top: 20px;
 	margin-right: 20px;
     background-color: #ecebf1; 
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	color: rgb(26, 26, 31);
 	margin-left: 10px;
 	margin-bottom: 10px;
