@@ -22,9 +22,13 @@ Längst ner på mina sidor är footer som användaren kan få olika information 
 
 Footer och header i alla mina sidor är samma. 
 
-Alla 4 sidor är responsiv för att alla användare med olika mobil och surfplatta kan använda website. 
+Alla 4 sidor är responsiva för att alla användare med olika mobil och surfplatta kan använda website. 
 
 Jag har redovisat min websida till Shweta, Elham, Amir, Paria. 
+
+
+Github:
+
 
 Hälsningar 
 
