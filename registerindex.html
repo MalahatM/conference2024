@@ -39,32 +39,33 @@
     <form action="">
         <div class="form-1">
             <div class="name">
-                <label for="">Name:</label>
-                <input type="text">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required pattern="[A-Za-z\s]+" title="Name should only contain letters.">
             </div>
 
             <div class="email">
-                <label for="">Email:</label>
-                <input type="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
             </div>
 
             <div class="address">
-                <label for="">Address:</label>
-                <input type="text">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required minlength="5" maxlength="100" title="Address must be between 5 to 100 characters.">
             </div>
 
             <div class="mobile">
-                <label for="">Mobile:</label>
-                <input type="tel">
+                <label for="mobile">Mobile:</label>
+                <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number.">
             </div>
 
-            <button>Login</button>
+            <button type="submit">Login</button>
 
             <div class="link">
                 <a href="">Forget password</a> or <a href="">Sign up</a>
             </div>
         </div>
     </form>
+</div>
 
     <div class="foodexplain">
         In Better Web we ensured that the quality of food matched the high standards of our attendees. From carefully crafted gourmet meals to a variety of fresh and healthy options, every detail was considered to provide an exceptional dining experience. Our goal was to create a comfortable and enjoyable environment, where developers could not only exchange ideas but also enjoy high-quality food, enhancing the overall experience of the event. <br><br> PLEASE ENJOY:

@@ -143,6 +143,25 @@ button:hover {
     color: blue;
     text-decoration: none;
 }
+input:invalid {
+    border-color: red;
+    background-color: #fdd;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:focus:invalid {
+    outline: none;
+    box-shadow: 0 0 5px red;
+}
+
+input:focus:valid {
+    outline: none;
+    box-shadow: 0 0 5px green;
+}
+
 .foodexplain {
     width: 600px; 
     padding: 40px; 

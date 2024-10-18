@@ -62,6 +62,7 @@ main{
 .main-1 .text>*{
 	padding: 20px;
 	margin-left: 20px;
+	
 }
 	.main-1{
 		display: flex;
@@ -100,6 +101,7 @@ main{
     border-radius: 10px;
     background-color: rgba(159, 178, 197, 0.418);
 	
+	
 }
 
 
@@ -116,6 +118,7 @@ main{
 	background-color:rgb(180, 192, 199);
 	padding-top: 20px;
 	animation: text1 10s 2;
+	
 	
 }
 @keyframes text1{
