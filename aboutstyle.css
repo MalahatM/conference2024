@@ -236,6 +236,8 @@ footer h1{
 	.speakers>*{
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	
 	}
 	.footer {
