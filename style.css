@@ -199,21 +199,21 @@ main{
         align-items: center;
     }
 
-    .first img {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-    }
 
-    .text .text1,
-    .text .text2 {
-        width: 100%;
+    .text .text1{
+		 width: 90%;
         font-size: 16px;
+		margin-top: 15px ;
+		margin-bottom: 15px;
+		padding: auto;
     }
 
     .text .text2 {
         font-size: 20px;
 		height: 150px;
+		margin: auto;
+		padding: auto;
+		animation:none
    }
 
    .footer {
@@ -224,6 +224,11 @@ main{
 
 .footer div {
 	margin: 10px 0;
+}
+.first{
+display: flex;
+width: 70%;
+margin: auto;
 }
 
 }
