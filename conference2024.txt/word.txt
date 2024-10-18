@@ -1,0 +1,39 @@
+Bättre Web 
+
+Malahat Mortezavi 
+
+ 
+
+Mitt projekt består av 4 sidor (Home, About us, Information, Register). Första sida är min hemsida (Home). 
+
+På hemsidan i main sektion finns en knapp som kallas (Register) jag använde också en shadow för att jag kan uppmärksamma användaren på det och hen kan gå till register sidan så lätt. Och i två box gav jag en kort förklaring om frontend developers framtiden. Andra boxen som ligger percis ovanför registerknappen ,har animation for 10 sekunder och 2 gånger och jag trodde att detta skulle få användaren att uppmärksamma registreingknappen. 
+
+På andra sidan som är (About us) gav jag lite information om konferenstalare .De är 4 person.Jag lägger in bilder på varje person bredvid deras beskrivningar i en box. 
+
+På tredje sidan som är (Information) det finns alla information om 3 dagars konfrerens (12 seminar) med dag, tid, talare, subject och salong. Som användare kan välja lätt och det finns en knapp längst ner som kallas (Reserv) som hen kan reservera så lätt. Reserv knappen har lite shodow för mer uppmärksamhet. 
+
+På fjärde sidan som kallas (Register) med hjälp av en stor bild ville jag övertala användare att anmäla sig till konfrensen. Det finns 2 box (en for användarens information) och en om hen har inget allergi på especial mat kan skriva för oss och vilka dagar ska hen vara med. Jag har använd filter (blur) för båda bilderna och med hjälp av hover blir dem naturliga. 
+
+ 
+
+Alla mina sidorna består av (header, main och footer). Med hjälp av header har användaren tillgång till alla mina sidor. Det finns också en logotyp på vänstra hörnet. 
+
+Längst ner på mina sidor är footer som användaren kan få olika information om betalnings alternativ och kontaktsätt också. Jag har också lagt till tillgång till sociala media. 
+
+Footer och header i alla mina sidor är samma. 
+
+Alla 4 sidor är responsiva för att alla användare med olika mobil och surfplatta kan använda website. 
+
+Jag har redovisat min websida till Shweta, Elham, Amir, Paria. 
+
+
+Github:
+
+
+Hälsningar 
+
+Malahat Mortezavi 
+
+ 
+
+ 

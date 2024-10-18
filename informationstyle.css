@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+	background-color:rgba(116, 185, 255,1.0);
+}
+.header-1{
+	display: flex;
+	flex-direction: row;
+}
+.header-1>*{
+	padding: 20px;
+}
+
+
+.logo img{
+
+	height: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	
+	
+}
+.navbar ul{ 
+	display: flex;
+	list-style-type: none;
+}
+
+.navbar a{
+	padding: 8px;
+	color: rgb(13, 11, 11);
+	text-decoration: none;
+}
+.logo-name{
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(13, 11, 11);
+}
+main{
+	background-color:rgba(223, 228, 234,1.0)
+	
+}
+
+
+.first-day{ 
+	height:100% ;
+	width: 320px;
+	padding-left: 5px;
+	border: solid 5px;
+	border-radius: 8px;
+	color:rgb(80, 80, 160);
+	margin-bottom: 5px;
+	
+}
+.first-day img{
+	width: 300px;
+	height: 150px;
+	padding-left: 5px;
+}
+.second-day{ 
+	height:100% ;
+	width: 320px;
+	padding-left: 5px;
+	border: solid 5px;
+	border-radius: 8px;
+	color:rgb(80, 80, 160);
+	margin-bottom: 5px;
+}
+.second-day img{
+	width: 300px;
+	height: 150px;
+	padding-left: 5px;
+}
+.third-day{ 
+	height:100%;
+	width: 320px;
+	padding-left: 5px;
+	border: solid 5px;
+	border-radius: 8px;
+	color:rgb(80, 80, 160);
+	margin-bottom: 5px;
+}
+.third-day img{
+	width: 300px;
+	height: 150px;
+	padding-left: 5px;
+}
+.column{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;	
+}
+ .food{
+	font-size: 30px;
+	color: rgba(178, 42, 42, 0.682);
+	padding: 20px;
+}
+.loging-button{
+	padding: 0.5em 1.5 em;
+	width: 88px;
+	height: 40px;
+	margin-left: 110px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	color: rgb(118, 118, 202);
+	border: 1px solid rgb(124, 124, 197);
+	box-shadow: 0.5em 0.5em rgba(93, 112, 132, 0.521);
+	&:hover{
+		cursor: pointer;
+	}
+	}
+	.footer{
+		display: flex;
+		flex-direction: row;
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: cornflowerblue;
+		padding: 30px;
+		flex-wrap: wrap;
+	}
+	.footer div{
+		flex-grow: 1;
+	}
+	.footer div>*{
+		padding: 10px;
+		
+	}
+	footer .img-1 img{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+	}
+	footer .img-2 img{
+		width: 40px;
+		height: 30px;
+		border-radius: 20%;
+	
+	}
+	footer h1{
+		font-size: 25px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	@media screen and (max-width: 750px) {
+	.footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer div {
+        margin: 10px 0;
+    }
+	.third-day{
+		
+		margin-left: 215px;
+		margin-top: 15px;
+		
+
+	}
+}
