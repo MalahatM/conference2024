@@ -65,8 +65,7 @@ main.speakers{
 	
 }
 .firstperson .text1{
-	width: 400px;
-	height: 200px;
+	
 	border-radius: 20px;
 	background-color: rgb(200, 200, 214);
 	border: 2px solid rgb(75, 75, 119);
@@ -79,16 +78,17 @@ main.speakers{
 	
 }
 .text1{
+	font-size: 20px;
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
 	padding-right: 10px;
+	
 }
 
 .image1 img{
-	width: 300px;
-	height: 400px;
-	margin-left: 20px;
+	width: 90%;
+	margin-right: 40px;
 	border-radius: 20px;
 	box-shadow: 10px 5px 5px  rgba(92, 99, 114, 0.726);
 	
@@ -99,8 +99,7 @@ main.speakers{
 	
 }
 .secondperson .text2{
-	width: 400px;
-	height: 200px;
+	
 	border-radius: 20px;
 	background-color: rgb(200, 200, 214);
 	border: 2px solid rgb(75, 75, 119);
@@ -113,6 +112,7 @@ main.speakers{
 	
 }
 .text2{
+	font-size: 20px;
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
@@ -120,8 +120,7 @@ main.speakers{
 }
 
 .image2 img{
-	width: 300px;
-	height: 400px;
+	width: 90%;
 	margin-left: 20px;
 	border-radius: 20px;
 	box-shadow: 10px 5px 5px  rgba(92, 99, 114, 0.726);
@@ -133,8 +132,7 @@ main.speakers{
 	
 }
 .thirdperson .text3{
-	width: 400px;
-	height: 200px;
+
 	border-radius: 20px;
 	background-color: rgb(200, 200, 214);
 	border: 2px solid rgb(75, 75, 119);
@@ -147,6 +145,7 @@ main.speakers{
 	
 }
 .text3{
+	font-size: 20px;
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
@@ -154,9 +153,8 @@ main.speakers{
 }
 
 .image3 img{
-	width: 300px;
-	height: 400px;
-	margin-left: 20px;
+	width: 90%;
+	margin-right: 40px;
 	border-radius: 20px;
 	box-shadow: 10px 5px 5px  rgba(92, 99, 114, 0.726);
 	
@@ -170,8 +168,7 @@ main.speakers{
 	
 }
 .fourthperson .text4{
-	width: 400px;
-	height: 200px;
+	
 	border-radius: 20px;
 	background-color: rgb(200, 200, 214);
 	border: 2px solid rgb(75, 75, 119);
@@ -184,6 +181,7 @@ main.speakers{
 	
 }
 .text4{
+	font-size: 20px;
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
@@ -191,8 +189,7 @@ main.speakers{
 }
 
 .image4 img{
-	width: 300px;
-	height: 400px;
+	width: 90%;
 	margin-left: 20px;
 	border-radius: 20px;
 	box-shadow: 10px 5px 5px  rgba(92, 99, 114, 0.726);
@@ -230,22 +227,148 @@ footer h1{
 }
 
 
+@media screen and (max-width: 750px){
+    .speakers>* {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .speakers .text1, .speakers .text2, .speakers .text3, .speakers .text4 {
+        margin: 10px;
+        width: 90%;
+        text-align: center;
+    }
+    .speakers .image1 img, 
+    .speakers .image2 img, 
+    .speakers .image3 img, 
+    .speakers .image4 img {
+        width: 50%;
+        margin: 10px 0;
+		margin-left: 20px;
+    }
 
 
-@media screen and (max-width: 750px) {
-	.speakers>*{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	
-	}
-	.footer {
+    .footer {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .footer div {
-        margin: 10px 0;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+  
+
+@media screen and (max-width: 500px) {
+    .speakers .text1, .speakers .text2, .speakers .text3, .speakers .text4 {
+        font-size: 16px;
+    }
+
+    .footer h1 {
+        font-size: 20px;
+    }
+
+
+    .header .logo img {
+        height: 30px;
+    }
+	.speakers .image1 img,
+    .speakers .image2 img,
+    .speakers .image3 img,
+    .speakers .image4 img {
+		margin-left: 20px;
+	}
+}
+
+ 
+    @media screen and (min-width: 750px) and (max-width: 1000px) {
+		.speakers .image1 img,
+		.speakers .image2 img,
+		.speakers .image3 img,
+		.speakers .image4 img {
+			width: 90%;  
+			max-width: 600px; 
+			height: auto; 
+			margin: 0 auto; 
+		}
+	}
+	 
+	.firstperson, .secondperson, .thirdperson, .fourthperson {
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: space-around; 
+			align-items: center;
+		}
+	
+		.text1, .text2, .text3, .text4 {
+			flex: 1; 
+		}
+	
+		.image1, .image2, .image3, .image4 {
+			flex: 1; 
+		}
+	
+	
+	 .text1, .text2, .text3, .text4 {
+			margin: 10px 20px; 
+			padding: 10px;
+		}
+	
+		.image1, .image2, .image3, .image4 {
+			margin: 0 10px; 
+		}
+	
+		
+
+
+
+@media screen and (max-width: 350px) {
+   
+ .speakers .text1, 
+    .speakers .text2, 
+    .speakers .text3, 
+    .speakers .text4 {
+        font-size: 14px;
+        padding: 5px;
+        width: 95%;
+    }
+
+    .speakers .image1 img,
+    .speakers .image2 img,
+    .speakers .image3 img,
+    .speakers .image4 img {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer h1 {
+        font-size: 18px;
+    }
+
+    .footer div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    footer .img-1 img,
+    footer .img-2 img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer p {
+        font-size: 12px;
     }
 }
+

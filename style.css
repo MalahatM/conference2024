@@ -74,8 +74,7 @@ main{
 	margin-top: 15px;
 	margin-right: 10px;
 	margin-left: 40px;
-	width: 500px;
-	height: 400px;
+	width: 60%;
 	border-radius: 5px;
 
 
@@ -92,15 +91,14 @@ main{
 
 }
 .text .text1{
-	width: 700px;
-    height: 120px;
+	
     font-size: 17px;
     color: rgba(16, 16, 86, 0.731);
     margin-bottom: 15px;
     border: 3px solid rgb(138, 123, 152);
     border-radius: 10px;
     background-color: rgba(159, 178, 197, 0.418);
-	
+	height: 150px;
 	
 }
 
@@ -193,7 +191,7 @@ main{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .main-1 {
         flex-direction: column;
         align-items: center;
@@ -216,15 +214,7 @@ main{
 		animation:none
    }
 
-   .footer {
-	flex-direction: column;
-	align-items: center;
-   
-}
-
-.footer div {
-	margin: 10px 0;
-}
+  
 .first{
 display: flex;
 width: 70%;
@@ -234,3 +224,58 @@ margin: auto;
 }
 
 	
+@media screen and (max-width:730px){
+	.text .text2{
+		width: 70%;
+		height: 190px;
+		margin-right: 70px;
+	}
+	.main-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer div {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+   
+}
+@media screen and (max-width:540px){
+	.text .text1{
+		width: 70%;
+		height: 300px;
+	}
+	.text .text2{
+		width: 70%;
+		height: 300px;
+		margin-right: 70px;
+	}
+	.main-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+	
+}
+@media screen and (max-width:350px){
+	.text .text1{
+		width: 70%;
+		height: 400px;
+	}
+	.text .text2{
+		width: 70%;
+		height: 400px;
+		margin-right: 70px;
+	}
+	.main-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+	
+}

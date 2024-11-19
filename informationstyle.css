@@ -55,7 +55,7 @@ main{
 
 .first-day{ 
 	height:100% ;
-	width: 320px;
+	width: 30%;
 	padding-left: 5px;
 	border: solid 5px;
 	border-radius: 8px;
@@ -64,13 +64,13 @@ main{
 	
 }
 .first-day img{
-	width: 300px;
-	height: 150px;
+	width: 95%;
+	height:85%;
 	padding-left: 5px;
 }
 .second-day{ 
-	height:100% ;
-	width: 320px;
+	height:90% ;
+	width: 30%;
 	padding-left: 5px;
 	border: solid 5px;
 	border-radius: 8px;
@@ -78,13 +78,13 @@ main{
 	margin-bottom: 5px;
 }
 .second-day img{
-	width: 300px;
-	height: 150px;
+	width: 95%;
+	height:85%;
 	padding-left: 5px;
 }
 .third-day{ 
 	height:100%;
-	width: 320px;
+	width: 30%;
 	padding-left: 5px;
 	border: solid 5px;
 	border-radius: 8px;
@@ -92,8 +92,8 @@ main{
 	margin-bottom: 5px;
 }
 .third-day img{
-	width: 300px;
-	height: 150px;
+	width: 95%;
+	height:85%;
 	padding-left: 5px;
 }
 .column{
@@ -152,20 +152,65 @@ main{
 		font-size: 25px;
 		font-family: Arial, Helvetica, sans-serif;
 	}
-	@media screen and (max-width: 750px) {
-	.footer {
+	
+@media screen and (max-width: 700px) {
+    .column {
+        flex-direction: column;  
+        width: 100%;  
+        align-items: center;
+    }
+
+    .footer {
         flex-direction: column;
         align-items: center;
+        text-align: center;  
+    }
+
+    .footer div {
+        margin: 10px 0; 
+    }
+
+   
+
+    .first-day, .second-day, .third-day {
+        width: 90%;  
+        margin-bottom: 15px;  
+    }
+
+    .loging-button {
+        margin-left: 50px;
+        width: 50%;  
+        padding: 1em;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .column {
+        flex-direction: column;
+        width: 100%;  
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;  
     }
 
     .footer div {
         margin: 10px 0;
     }
-	.third-day{
-		
-		margin-left: 215px;
-		margin-top: 15px;
-		
 
-	}
+    
+    .first-day, .second-day, .third-day {
+        width: 100%;  
+        margin-bottom: 15px;  
+    }
+
+    .loging-button {
+        width: 50%; 
+		 padding: 1em;
+		 margin-left: 50px;
+    }
 }

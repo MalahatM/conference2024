@@ -27,6 +27,9 @@ Alla 4 sidor är responsiva för att alla användare med olika mobil och surfpla
 Jag har redovisat min websida till Shweta, Elham, Amir, Paria. 
 
 
+* (den 2024.11.19 lade jag till responsiv 350 på alla mina sidor.)
+
+
 Github: https://github.com/MalahatM/conference2024.git
 
 link:https://malahatm.github.io/conference2024/
